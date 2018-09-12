@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Form, Input, } from 'reactstrap';
+import { Container, Form, FormGroup, Input, Label } from 'reactstrap';
 import PreFooter from './PreFooter';
 import FooterLite from './FooterLite';
 import HeaderLite from './HeaderLite';
@@ -18,11 +18,17 @@ class ResetPassword extends Component {
       <section>
         <HeaderLite />
 
-        <Container>
-          <div className="mr-auto shadow-sm mt-4 p">
-            <h3>Reset your password</h3>
-            <Form>
-              <Input type="email" placeholder="provide your email" />
+        <Container className="mr-auto w-50 mt-5 mpa__color-dark">
+          <div className="shadow-sm mt-4 p-5">
+            <h3 className="text-center">Reset your password</h3>
+              <p className="text-center">Submit your email to receive a password reset token</p>
+
+            <Form className="pb-5">
+              <FormGroup className="mt-5">
+              <Label for="resetPassword">Email</Label>
+                <Input className="rounded-0" id="resetPassword" type="email" placeholder="provide your email" />
+                <Input type="submit" className="btn btn-block rounded-0 btn-danger mt-4 FormButton" />
+              </FormGroup>
             </Form>
           </div>
         </Container>

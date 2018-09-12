@@ -6,7 +6,7 @@ class FooterLite extends Component {
   render() {
     return (
       <footer>
-        <div className="text-center m-3 p-3 border-top">
+        <div className="text-center m-3 p-3 border-top fixed-bottom">
           Copyright &copy; Missing Persons Archive Africa
         </div>
       </footer>
