@@ -72,7 +72,7 @@ class HeroForm extends Component {
                   <Input className="rounded-0 bg-transparent" type="text" placeholder="Location">
                   </Input>
                 </FormGroup>
-                <Button className="btn-block HeroFormButton mt-4" color="danger">Submit</Button>
+                <Button className="btn-block FormButton mt-4" color="danger">Submit</Button>
 
               </Col>
             </Row>

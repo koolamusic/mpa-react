@@ -39,6 +39,11 @@ body {
 }
 
 
+.FormButton{
+  border-radius: 0px;
+  box-shadow: 4px 5px 0px #222222;
+}
+
 
 h1, h2, h3, h4 {
   font-family: -apple-system, BlinkMacSystemFont, "GT Walsheim", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
