@@ -38,6 +38,32 @@ body {
   color: #1e303f;
 }
 
+.mpa__color-accent{
+  color: #d63e48;
+  
+}
+
+
+/* Forms, Form Box, and authentication */
+.FormButton{
+  border-radius: 0px;
+  box-shadow: 4px 5px 0px #222222;
+}
+
+.authentication__container{
+  padding: 20px;
+}
+.authentication__box{
+  border: #1e303f8f 1px solid;
+ 
+}
+
+.authentication__box input{
+  border: #1e303f8f 1px solid;
+  padding: 13px 0px 35px 0px;
+}
+
+/* ============ End .authentication_box  ======= */
 
 
 h1, h2, h3, h4 {
@@ -64,4 +90,23 @@ footer h6:hover{
 
   .mpa__footer-standard{
     border-bottom: 1px solid #15568f;
+  }
+
+  @media (max-width: 400px){
+    .footer-lite{
+      font-size: 12px;
+    }
+    .authentication__container{
+  padding: 20px;
+}
+.authentication__box{
+  border: #1e303f8f 1px solid;
+ 
+}
+
+.authentication__box input{
+  border: #1e303f8f 1px solid;
+  padding: 13px 0px 35px 0px;
+}
+
   }
