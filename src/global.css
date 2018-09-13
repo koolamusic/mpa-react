@@ -54,12 +54,13 @@ body {
   padding: 20px;
 }
 .authentication__box{
-  border: #1e303f 1px solid;
+  border: #1e303f8f 1px solid;
  
 }
 
 .authentication__box input{
-  border: #1e303f 1px solid;
+  border: #1e303f8f 1px solid;
+  padding: 13px 0px 35px 0px;
 }
 
 /* ============ End .authentication_box  ======= */
@@ -89,4 +90,23 @@ footer h6:hover{
 
   .mpa__footer-standard{
     border-bottom: 1px solid #15568f;
+  }
+
+  @media (max-width: 400px){
+    .footer-lite{
+      font-size: 12px;
+    }
+    .authentication__container{
+  padding: 20px;
+}
+.authentication__box{
+  border: #1e303f8f 1px solid;
+ 
+}
+
+.authentication__box input{
+  border: #1e303f8f 1px solid;
+  padding: 13px 0px 35px 0px;
+}
+
   }
