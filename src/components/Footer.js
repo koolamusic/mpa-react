@@ -48,7 +48,7 @@ class Footer extends Component {
           </Container>
         </div>
 
-        <div className="mpa__footer-copyright pt-5 pb-3 text-white">
+        <div className="mpa__footer-copyright pt-3 pb-3 text-white">
           <Container>
             Copyright c Missing Persons Africa 2018
           </Container>
