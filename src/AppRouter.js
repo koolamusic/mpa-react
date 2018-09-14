@@ -8,6 +8,7 @@ import Home from './components/Home';
 import Login from './components/Login';
 import Signup from './components/Signup';
 import ResetPassword from './components/ResetPassword';
+import ConfirmAccount from './components/ConfirmAccount';
 import FourOhFour from './components/FourOhFour';
 
 
@@ -26,6 +27,7 @@ class App extends Component {
           <Route path="/login" component={Login} />
           <Route path="/signup" component={Signup} />
           <Route path="/resetpass" component={ResetPassword} />
+          <Route path="/confirm-account" component={ConfirmAccount} />
           <Route component={FourOhFour} />
         </Switch>
         </section>
