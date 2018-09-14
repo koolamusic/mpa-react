@@ -27,7 +27,7 @@ class Login extends Component {
                 <Label for="loginEmail">Email</Label>
                 <Input className="rounded-0" id="loginEmail" type="email" placeholder="provide your email" />
 
-                <Label for="loginPassword" className="mt-2">Password</Label>
+                <Label for="loginPassword" className="mt-3">Password</Label>
                 <Input className="rounded-0" id="loginPassword" type="password" placeholder="provide your email" />
                 <Input type="submit" className="btn btn-block rounded-0 btn-danger mt-4 FormButton" />
               </FormGroup>
