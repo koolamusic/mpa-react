@@ -97,16 +97,16 @@ footer h6:hover{
       font-size: 12px;
     }
     .authentication__container{
-  padding: 20px;
-}
-.authentication__box{
-  border: #1e303f8f 1px solid;
- 
-}
+      padding: 20px;
+    }
+    .authentication__box{
+      border: #1e303f8f 1px solid;
+    
+    }
 
-.authentication__box input{
-  border: #1e303f8f 1px solid;
-  padding: 13px 0px 35px 0px;
-}
+    .authentication__box input{
+      border: #1e303f8f 1px solid;
+      padding: 13px 0px 35px 0px;
+    }
 
   }
